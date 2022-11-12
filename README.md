@@ -1,5 +1,5 @@
-# Rwa
-Real world application
+# Rwa (Real world application) - Booking site
+The app is a demo app for save angular development experience
 
 ## Technologies
 * NX

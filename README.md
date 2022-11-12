@@ -14,6 +14,9 @@ Real world application
 
 ## Console commands
 ```shell
+npm run start start:site
+npm run start start:admin
+
 # Create nx workspace
 npx create-nx-workspace@latest --preset angular --directory ./
 
@@ -25,6 +28,9 @@ nx g @nrwl/angular:app --directory=frontend --name=[NAME]
 
 # Generate frontend library - angular
 nx g @nrwl/angular:library --directory=frontend/[PATH] --name=[NAME]
+nx g @nrwl/angular:library --directory=frontend/ui/[PATH] --name=[NAME]
+nx g @nrwl/angular:library --directory=frontend/utils/[PATH] --name=[NAME]
+nx g @nrwl/angular:library --directory=frontend/modules/[PATH] --name=[NAME]
 ```
 
 ## Links

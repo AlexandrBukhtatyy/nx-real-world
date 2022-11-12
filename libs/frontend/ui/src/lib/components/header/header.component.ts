@@ -1,4 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+
+export interface HeaderItem {
+  text: string;
+  href?: string;
+  children?: HeaderItem[];
+}
 
 @Component({
   selector: 'rwa-header',
@@ -6,6 +12,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  @Input() items: HeaderItem[] = [];
+
   constructor() {}
 
   ngOnInit(): void {}

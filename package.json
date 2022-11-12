@@ -26,6 +26,7 @@
     "@nestjs/platform-express": "^9.0.0",
     "@nrwl/angular": "14.5.7",
     "@prisma/client": "^4.2.1",
+    "normalize.css": "^8.0.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

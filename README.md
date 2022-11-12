@@ -32,8 +32,10 @@ nx g @nrwl/angular:library --directory=frontend/ui/[PATH] --name=[NAME]
 nx g @nrwl/angular:library --directory=frontend/utils/[PATH] --name=[NAME]
 nx g @nrwl/angular:library --directory=frontend/modules/[PATH] --name=[NAME]
 
-nx g c --directory=frontend/[PATH] --name=[NAME]
-nx g d --directory=frontend/[PATH] --name=[NAME]
+nx generate @nrwl/angular:component layouts/[NAME] --project=[PROJECT_NAME]
+nx generate @nrwl/angular:component components/[NAME] --project=[PROJECT_NAME]
+nx generate @nrwl/angular:directive directives/[NAME] --project=[PROJECT_NAME]
+nx generate @nrwl/angular:service services/[NAME] --project=[PROJECT_NAME]
 ```
 
 ## Links

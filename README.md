@@ -31,6 +31,9 @@ nx g @nrwl/angular:library --directory=frontend/[PATH] --name=[NAME]
 nx g @nrwl/angular:library --directory=frontend/ui/[PATH] --name=[NAME]
 nx g @nrwl/angular:library --directory=frontend/utils/[PATH] --name=[NAME]
 nx g @nrwl/angular:library --directory=frontend/modules/[PATH] --name=[NAME]
+
+nx g c --directory=frontend/[PATH] --name=[NAME]
+nx g d --directory=frontend/[PATH] --name=[NAME]
 ```
 
 ## Links

@@ -5,8 +5,11 @@
     "admin": "apps/frontend/admin",
     "admin-e2e": "apps/frontend/admin-e2e",
     "api": "apps/backend/api",
+    "frontend-modules-forms": "libs/frontend/modules/forms",
+    "frontend-modules-tables": "libs/frontend/modules/tables",
     "frontend-site": "apps/frontend/site",
     "frontend-site-e2e": "apps/frontend/site-e2e",
+    "frontend-ui": "libs/frontend/ui",
     "products": "libs/products"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/frontend/modules/tables/src",
+  "prefix": "rwa",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/frontend/modules/tables"],
+      "options": {
+        "jestConfig": "libs/frontend/modules/tables/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/frontend/modules/tables/**/*.ts",
+          "libs/frontend/modules/tables/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

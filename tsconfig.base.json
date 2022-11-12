@@ -15,6 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@rwa/frontend/modules/forms": [
+        "libs/frontend/modules/forms/src/index.ts"
+      ],
+      "@rwa/frontend/modules/tables": [
+        "libs/frontend/modules/tables/src/index.ts"
+      ],
+      "@rwa/frontend/ui": ["libs/frontend/ui/src/index.ts"],
       "@rwa/products": ["libs/products/src/index.ts"]
     }
   },
